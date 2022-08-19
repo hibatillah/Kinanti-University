@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, 'sans-serif';
+    display: flex;
+    flex-direction: column;
+    background: #FCF8E8;
+}
+a{text-decoration: none;}
+.page-title{
+    font-weight: bolder;
+    color: #94B49F;
+}
+
+/* navbar */
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    background: #94B49F;
+    box-shadow: 0px 30px 60px #16161625;
+}
+nav .logo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: -15px;
+    font-weight: 800;
+    justify-content: flex-start;
+    color: #FFFFFF;
+}
+nav .logo h2{width: 100%;}
+nav .menu ul{
+    margin-top: 10px;
+    display: flex;
+    width: 500px;
+    justify-content: flex-end;
+    color: #CCE5FF;
+}
+nav .menu ul li{list-style: none;}
+nav .menu ul li a{
+    color: #FFFFFF;
+    font-weight: 800;
+    margin-right: 20px;
+}
+nav .menu ul li a:hover{color: #FCF8E8;}
+nav .menu ul li a:active{color: #c99778;}
+nav .profile{
+    width: 250px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: flex-end;
+}
+
+/* profile */
+h2.profile{color: #94B49F;}
+.profile{
+    flex: 1;
+    position: relative;
+    display: inline-block;
+}
+.profile img{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+/* dropdown */
+.dropbtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background: #f8d5b5;
+    display: flex;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #fcdfc4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #c99778;
+    font-weight: 600;
+    padding: 10px 5px 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #f8d5b5;
+    border-radius: 10px;
+}
+.show {display:block;}
