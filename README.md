@@ -1,12 +1,13 @@
----- 🎓Kinanti University Project -----
+## 🎓Kinanti University Project
 
-New student registration website project. 👨‍🎓👩‍🎓
-Was created with CodeIgniter framework, with PHP, HTML, CSS, Javascript and database with MySQL.
+New student registration website project 👨‍🎓👩‍🎓 <br>
+The project was created by Student of [Politeknik Caltex Riau](https://pcr.ac.id) class 1SIC of group 3 as a project for 2nd semester.
+1. Azarine Aprilia Afdal      2157301014
+2. Gilbertson Peniel Davinci  2157301031
+3. Kinanti Rizki Utami        2157301043
+4. M. Hibatillah Hasanin      2157301046
 
-this project was created by Group 3 of Class 1SIC, as a semester 2 project :
-1. Azarine Aprilia Afdal        2157301014
-2. Gilbertson Peniel Davinci    2157301031
-3. Kinanti Rizki Utami          2157301043
-4. M. Hibatillah Hasanin        2157301046
-
-*Politeknik Caltex Riau*
+This project was built with :
+* CodeIgniter v3
+* Boostrap v4
+* MySQL
